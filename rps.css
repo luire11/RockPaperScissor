@@ -1,0 +1,60 @@
+body{
+  background-color: black
+}
+
+header {
+  background-color: white;
+  padding: 20px;
+}
+
+header > h1{
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.results {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+  background-color: red;
+  padding: 20px;
+  margin-top: 30px;
+
+}
+
+.choice {
+  display: inline-block;
+  padding: 10px 20px;
+
+}
+
+.Choices {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.choice > button {
+  font-size: 36px;
+  border-radius: 15px;
+  background-color: White;
+  color: black;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+#r:hover {
+  background-color: blue;
+  color: white;
+}
+
+#p:hover {
+  background-color: blue;
+  color: white;
+}
+
+#s:hover {
+  background-color: blue;
+  color: white;
+}
